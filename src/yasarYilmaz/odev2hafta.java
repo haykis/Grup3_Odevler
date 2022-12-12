@@ -8,7 +8,7 @@ public class odev2hafta {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		// Adinizi soyadinizi ve Adresinizi Girip Ekrana Yazdirin
+		// Adınızı Soyadınızı ve Adresinizi Girip Ekrana Yazdırın
 		System.out.println("İsminizi Giriniz ");
 		String ad = scan.next();
 		System.out.println("Soyadınızı Giriniz ");
@@ -23,25 +23,19 @@ public class odev2hafta {
 		Long saat = scan.nextLong();
 		System.out.println(saat + " Saat = " + saat*60*60 + " Saniyedir" );
 	
-		// Karenin Alan ve Cevresinin Hesaplanmasi
+		// Karenin Alan ve Çevresinin Hesaplanması
 		System.out.println("Karenin Alan ve Çevresini Hesaplama ");
 		System.out.println("Kenar Uzunluğunu Giriniz  ");
 		Short kenar = scan.nextShort();
 		System.out.println(kenar + " Alan = " + kenar*kenar + "\n Çevre = " + kenar*4 );
 		
-		// Girilen Mil'i Km ye Cevirme
+		// Girilen Mil'i Km ye Çevirme
 		System.out.println("Uzunluğu mil girerek km hesaplama ");
 		System.out.println("Uzunluğu mil giriniz  ");
 		Double mil = scan.nextDouble();
 		System.out.println(mil + " mil = " + mil*1.6);
 		
-		// Prizmanin Hacmini Hesaplama
-		System.out.println("Uzunluğu mil girerek km hesaplama ");
-		System.out.println("Uzunluğu mil giriniz  ");
-		Double mil = scan.nextDouble();
-		System.out.println(mil + " mil = " + mil*1.6);
 		
-		//
 		
 }
 
