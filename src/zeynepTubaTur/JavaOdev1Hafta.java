@@ -130,6 +130,9 @@ System.out.println("D.Max: " + Double.MAX_VALUE);
 System.out.println("D.Min: " + Double.MIN_VALUE);
 
 
+System.out.println("D.Min: " + Double.MIN_VALUE);
+
+
 
 //System.out.println(Char.MAX_VALUE);
 //System.out.println(Char.MIN_VALUE);
