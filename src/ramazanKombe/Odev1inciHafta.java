@@ -1,6 +1,6 @@
 package ramazanKombe;
 
-public class JavaOdev1 {
+public class Odev1inciHafta {
 
 	public static void main(String[] args) {
 
