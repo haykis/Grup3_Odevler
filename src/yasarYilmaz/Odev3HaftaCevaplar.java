@@ -110,7 +110,7 @@ System.out.println(day.equals("cumartesi")||day.equals("pazar") ?
 			 	System.out.println("lütfen 4 basamaklı bir sayı giriniz!!");
 	        		int rakam= sayi.nextInt();
 	        		String str= rakam % 5 == 0  ? 
-	        				(rakam % 2==0 ? "5'e bölünen çift sayı" : "5'e bölünen tek sayı" ): "tekrar deneyin";
+	        				(rakam % 2==0 ? "5'e Bölünen Çift Sayı" : "5'e Bölünen Tek Sayı" ): "Tekrar Sayi Giriniz ";
 	        		System.out.println(str);
 
 	}
