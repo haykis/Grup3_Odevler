@@ -146,17 +146,7 @@ public class Odev3uncuHafta {
 			String sonuc = (sayi % 5 == 0) ? (sayi % 2 == 0 || sayi % 5 == 0) ? "Sayi 5'e bölünebilen bir cift sayidir."
 					: "Sayi 5'e bölünebilen bir tek sayidir." : "Tekrar deneyiniz";
 
-			if (sayi % 5 == 0 && sayi % 2 == 0) {
-
-				System.out.println("Sayi 5'e bolunebilen bir cift sayidir.");
-				System.out.println(sayi % 5);
-			} else if (sayi % 5 == 0) {
-				System.out.println("Sayi 5'e bölünebilen bir tek sayidir.");
-				System.out.println(sayi % 5);
-			} else {
-				System.out.println("Tekrar deneyiniz.");
-				System.out.println(sayi % 5);
-			}
+			
 		}
 	}
 }
