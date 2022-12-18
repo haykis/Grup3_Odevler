@@ -71,7 +71,7 @@ public class Odev3uncuHafta {
 		default:
 			System.out.println("Yanlis harf girdiniz.");
 
-//		}
+		}
 //		4-Kullanicidan bir gun alin eger gun “Cuma” ise ekrana 
 //		“Muslumanlar icin kutsal
 //		gun” yazdirin. “Cumartesi” ise ekrana “Yahudiler icin kutsal gun”
@@ -143,10 +143,14 @@ public class Odev3uncuHafta {
 			System.out.println("Lütfen dört basamakli bir sayi giriniz.");
 			int sayi = dortBasamakliSayi.nextInt();
 
-			String sonuc = (sayi % 5 == 0) ? (sayi % 2 == 0 || sayi % 5 == 0) ? "Sayi 5'e bölünebilen bir cift sayidir."
-					: "Sayi 5'e bölünebilen bir tek sayidir." : "Tekrar deneyiniz";
-
+			String sonuc= ((sayi % 5 == 0) ? (sayi % 2 == 0 || sayi % 5 == 0) ? "Sayi 5'e bölünebilen bir cift sayidir."
+					: "Sayi 5'e bölünebilen bir tek sayidir." : "Tekrar deneyiniz");
+			System.out.println(sonuc);
+		
+			
+			
+			
 			
 		}
 	}
-}
+
