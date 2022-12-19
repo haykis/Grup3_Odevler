@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class Odev4 {
 public static void main(String[] args) {
+	//hjhff
 		
 //		Soru 1) String methodlarini kullanarak “ Java ogrenmek123 Cok guzel@ ”  string ifadesini 
 //“Java ogrenmek cok guzel.” sekline getirin.
 		
-	String ilkDeger= "Java ogrenmek123 Cok guzel@";
-		String IstenenDeger=ilkDeger.replaceAll("123", "").replace('@', '.').replace('C', 'c');
+/*	String ilkDeger= "Java ogrenmek123 Cok guzel@";
+		String IstenenDeger=ilkDeger.replace("123", "").replace('@', '.').replace('C', 'c');
 		//"Java ogrenmek cok guzel."
         System.out.println(IstenenDeger);
         
@@ -23,12 +24,26 @@ public static void main(String[] args) {
         String isim=scan.nextLine();
         
         if(isim.contains("a")) {
-        	System.out.println("Girdiginiz isim a harfi iceriyor");
+        	
+        	if(isim.contains("Z")&&isim.contains("a")) {
+        		System.out.println("Girdiginiz isim hem  a harfi  hem Z iceriyor");	
         	}
-        else if(isim.contains("Z")) {
-        	System.out.println("Girdiginiz isim Z harfi iceriyor");
-        }
+        	else {
+        		System.out.println("sadeve a iceriyor");
+        	}
+        	}
         
+        else if(isim.contains("Z")) {
+        	if(isim.contains("Z")&&isim.contains("a")) {
+        		System.out.println("Girdiginiz isim hem  a harfi  hem Z iceriyor");	
+        	}
+        	else {
+        		System.out.println("sadeve a iceriyor");}
+        	
+        	
+        	
+        }
+       
         else {
         	System.out.println("Girdiginiz isim a veya Z harfi icermiyor");
         	
@@ -76,6 +91,7 @@ Scanner scan1=new Scanner(System.in);
         System.out.println(yeniIsim+" "+ yeniSoyIsim+"\n"+yeniKartNo);
         
  
+ */
 		
        // Soru 5) Kullanicidan bir sifre girmesini isteyin. Asagidaki sartlari sagliyorsa
         //“Sifre basari ile tanimlandi”, sartlari saglamazsa “Islem basarisiz,Lutfen yeni bir sifre girin” yazdirin 
@@ -93,12 +109,14 @@ Scanner scan1=new Scanner(System.in);
         //ilk harf buyuk olma kosulu
         boolean ilkHarf=sifre.charAt(0)>='A'&& sifre.charAt(0)<='Z';
         boolean sonHarf=sifre.charAt(sifre.length()-1)>='a'&& sifre.charAt(sifre.length()-1)<='z';
-        boolean boslukDurumu=!sifre.contains("");
-        boolean sifreUzunlugu=sifre.length()>7;
+        boolean boslukDurumu=!sifre.contains(" ");
+        boolean sifreUzunlugu=sifre.length()>=8;
         
         boolean ilkAsama=ilkHarf&&sonHarf;
         boolean ikinciAsama=boslukDurumu&&sifreUzunlugu;
+                
         
+      
         if((ilkAsama&&ikinciAsama)){
         	System.out.println("Sifre basari ile tanimlandi");
         }
