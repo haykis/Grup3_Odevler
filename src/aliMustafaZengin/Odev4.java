@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Odev4 {
 public static void main(String[] args) {
-	//hjhff
+	
 		
 //		Soru 1) String methodlarini kullanarak “ Java ogrenmek123 Cok guzel@ ”  string ifadesini 
 //“Java ogrenmek cok guzel.” sekline getirin.

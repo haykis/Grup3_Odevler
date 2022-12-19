@@ -4,8 +4,7 @@ public class Odev1 {
 	
 	public static void main(String[]args) {
 			
-		//ffs
-		//fs
+		
 		
 		// primitiv variable 
 			// byte short int long float double char boolean = 8 adet
