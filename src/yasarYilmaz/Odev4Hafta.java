@@ -14,7 +14,7 @@ public class Odev4Hafta {
 		 * String mesaj="Java ogrenmek123 Cok guzel@"; String regex = "\\d+";
 		 * System.out.println(mesaj); System.out.println(mesaj.replaceAll("\\d+"," "));
 		*/		
-//	lksjdhfalksjfşlsajfşlsajfşlsakfd	
+//	lksjdhfalksjfşlsajfşlsajfşlsakfd	dfgdgdgd
 //Soru 2) Kullanicidan isim isteyin. Eger - isim “a” harfi iceriyorsa “Girdiginiz isim a 
 //harfi iceriyor” - isim “Z” harfi iceriyorsa “Girdiginiz isim Z harfi iceriyor” - ikisi de yoksa
 //“Girdiginiz isim a veya Z harfi icermiyor” yazdirin.
