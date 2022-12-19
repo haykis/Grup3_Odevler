@@ -6,7 +6,7 @@ public class Odev3HaftaCevaplar {
 
 	public static void main(String[] args) {
 
-/*		
+		/*		
 		 Scanner verigir = new Scanner(System.in);
 
 	        System.out.println("Girilen 3 Sayıdan En Büyüğünü Bulan program. \n 3 Adet Sayi Giriniz ");
@@ -20,23 +20,23 @@ public class Odev3HaftaCevaplar {
 	    	 System.out.println("En Büyük Sayı = " + num2);
 	     }
 	     else System.out.println("En Büyük Sayı = " + num3);
-		
- */
 
-		 // ************************************************************************************		 
-		
-/*
+		 */
+
+		// ************************************************************************************		 
+
+		/*
 		 Scanner getday = new Scanner(System.in);
-		
+
 			System.out.println("Haftanın  Bir Gününü Giriniz.");
 			String day = getday.nextLine();
 System.out.println(day.equals("cumartesi")||day.equals("pazar") ? 
 ( day.equals("cumartesi") ? "cumartesi ve haftasonu":(day.equals("pazar") ? "pazar ve haftasonu": "haftaiçi")) : "haftaiçi" );
-	   
-*/
-		 //************************************************************************************		 
 
-/*
+		 */
+		//************************************************************************************		 
+
+		/*
 		 Scanner getday = new Scanner(System.in);
 		 System.out.println("Haftanın Günlerinden İlk Harfi Girilenleri Yazdırma ");
 		 String day = getday.nextLine();
@@ -54,9 +54,9 @@ System.out.println(day.equals("cumartesi")||day.equals("pazar") ?
 		 		default:
 		 			System.out.println("Yanlış Harf Girdiniz");
 		 	 }
-*/
+		 */
 		//************************************************************************************		 
-/*
+		/*
 		 Scanner getday = new Scanner(System.in);
 		 System.out.println("3 Kutsal Kitaba Göre Kutsal Günleri Giriniz ");
 		 String day = getday.nextLine();
@@ -74,10 +74,10 @@ System.out.println(day.equals("cumartesi")||day.equals("pazar") ?
 		 		default:
 		 			System.out.println(" Yanlış Gün Girdiniz");
 		 	 }
-*/
+		 */
 		//************************************************************************************
-		 
-/*		 
+
+		/*		 
 		    Scanner keys= new Scanner(System.in);
 			 	System.out.println("bir karakter giriniz");
 		        String str= keys.nextLine();
@@ -89,12 +89,12 @@ System.out.println(day.equals("cumartesi")||day.equals("pazar") ?
 			        int i3= ch;
 			        System.out.println(i3);
 
- 
-*/
 
-/*		
+		 */
+
+		/*		
 		//************************************************************************************		
-		
+
 		    Scanner notlar = new Scanner(System.in);
 				System.out.println("Notunuzu Giriniz ");
 			    int puan = notlar.nextInt();
@@ -102,22 +102,22 @@ System.out.println(day.equals("cumartesi")||day.equals("pazar") ?
 		            else if (puan>60) System.out.println("Notunuz  B");
 		            else if (puan>50) System.out.println("Notunuz  C");
 		            else System.out.println("Notunuz  D");
-			
-*/	
+
+		 */	
 		//************************************************************************************
-				    
-			Scanner sayi = new Scanner(System.in);
-			 	System.out.println("lütfen 4 basamaklı bir sayı giriniz!!");
-	        		int rakam= sayi.nextInt();
-	        		String str= rakam % 5 == 0  ? 
-	        				(rakam % 2==0 ? "5'e Bölünen Çift Sayı" : "5'e Bölünen Tek Sayı" ): "Tekrar Sayi Giriniz ";
-	        		System.out.println(str);
+
+		Scanner sayi = new Scanner(System.in);
+		System.out.println("lütfen 4 basamaklı bir sayı giriniz!!");
+		int rakam= sayi.nextInt();
+		String str= rakam % 5 == 0  ? 
+				(rakam % 2==0 ? "5'e Bölünen Çift Sayı" : "5'e Bölünen Tek Sayı" ): "Tekrar Sayi Giriniz ";
+		System.out.println(str);
 
 	}
-		 
+
 }
 
-	
-	
+
+
 
 
