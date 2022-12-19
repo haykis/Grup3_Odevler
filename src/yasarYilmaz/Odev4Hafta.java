@@ -72,27 +72,29 @@ public class Odev4Hafta {
 //- Sifre uzunlugu en az 8 karakter olmali
 		
 		
-		/*
-		 * Scanner scan = new Scanner(System.in);
-		 * System.out.println("Şifrenizi Giriniz  "); String sifre = scan.nextLine();
-		 * int uzunluk = sifre.length(); char ilkharf = sifre.charAt(0); char sonharf =
-		 * sifre.charAt(sifre.length()-1); char ctrlilk = sifre.toUpperCase().charAt(0);
-		 * char ctrlson = sifre.toLowerCase().charAt(sifre.length()-1); boolean
-		 * ctrlbosluk = sifre.isBlank(); String ctrlsifre = sifre.replace(" ", "a");
-		 * 
-		 * 
-		 * 
-		 * if (uzunluk >= 8) System.out.println("Şifre 8 Karekterli veya Daha Uzun\n ");
-		 * System.out.println(ilkharf == ctrlilk ? "Şifrenin İlk Harfi Büyüktür-> " +
-		 * ilkharf: "Şifrenin İlk Harfi Küçüktür-> " + ilkharf );
-		 * System.out.println(sonharf == ctrlson ? "Şifrenin Son Harfi Küçüktür-> " +
-		 * sonharf : "Şifrenin Son Harfi Büyüktür-> " + sonharf );
-		 * 
-		 * if ( (uzunluk >= 8) && (ilkharf == ctrlilk) && (sonharf == ctrlson) && (sifre
-		 * == ctrlsifre)) System.out.println("\nŞifre Başarı İle Tamamlandı"); else
-		 * System.out.println("\nsdfİşlem Başarısız. Tekrar Şifre Giriniz");
-		 */
 		
+//		  Scanner scan = new Scanner(System.in);
+//		  System.out.println("Şifrenizi Giriniz  "); String sifre = scan.nextLine();
+//		  int uzunluk = sifre.length(); char ilkharf = sifre.charAt(0); char sonharf =
+//		  sifre.charAt(sifre.length()-1); char ctrlilk = sifre.toUpperCase().charAt(0);
+//		  char ctrlson = sifre.toLowerCase().charAt(sifre.length()-1); 
+//		  // boolean ctrlbosluk = sifre.isBlank(); String ctrlsifre = sifre.replace(" ", "a");
+//		  boolean ctrlbosluk = sifre.contains(" ");
+//		  
+//		  
+//		  if (uzunluk >= 8) System.out.println("Şifre 8 Karekterli veya Daha Uzun\n ");
+//		  System.out.println(ilkharf == ctrlilk ? "Şifrenin İlk Harfi Büyüktür-> " +
+//		  ilkharf: "Şifrenin İlk Harfi Küçüktür-> " + ilkharf );
+//		  System.out.println(sonharf == ctrlson ? "Şifrenin Son Harfi Küçüktür-> " +
+//		  sonharf : "Şifrenin Son Harfi Büyüktür-> " + sonharf );
+//		  
+//		  if ( (uzunluk >= 8) && (ilkharf == ctrlilk) && (sonharf == ctrlson) && (sifre
+//		  == ctrlsifre)) System.out.println("\nŞifre Başarı İle Tamamlandı"); else
+//		  System.out.println("\nsdfİşlem Başarısız. Tekrar Şifre Giriniz");
+		 
+//		  if ( (uzunluk >= 8) && (ilkharf == ctrlilk) && (sonharf == ctrlson) && (!ctrlbosluk)) 
+//			  System.out.println("\nŞifre Başarı İle Tamamlandı"); else
+//				  System.out.println("\nİşlem Başarısız. Tekrar Şifre Giriniz");
 		
 //		System.out.println("ilk Harf =" + ilkharf + "\nSon Harf = " + sonharf + "\nŞifre Uzunluğu = " + uzunluk);
 //		System.out.println("Sifre = " + sifre + "\nctrlsifre = " + ctrlsifre);		
