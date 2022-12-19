@@ -122,7 +122,8 @@
 //		int parolaUzunluk = parola.length();
 //
 /*Character.isUpperCase(Parola.charAt(0) ilk harf büyük mü diye soruor!!!
- * isUpperCase ile toUpperCase farkli biri karakteri buyutuyor digeri buyuk mu diye sorguluyor.
+ * isUpperCase ile toUpperCase farkli biri karakteri buyutuyor digeri buyuk 
+ * mu diye sorguluyor. toLowerCase ile isLowerCase icinde gecerli.
  */
 //		if ((parolaUzunluk >= 8) && (Character.isUpperCase(parola.charAt(0)))
 //				&& (Character.isLowerCase(parola.charAt(parola.length() - 1))) && (!parola.contains(" "))) {
