@@ -4,7 +4,10 @@ public class Odev1 {
 	
 	public static void main(String[]args) {
 			
-			// primitiv variable 
+		//ffs
+		//fs
+		
+		// primitiv variable 
 			// byte short int long float double char boolean = 8 adet
 			
 			byte a= 3; System.out.println(a);
