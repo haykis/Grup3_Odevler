@@ -77,6 +77,7 @@ public class Odev4Hafta {
 		  Scanner scan = new Scanner(System.in);
 		  System.out.println("Şifrenizi Giriniz  "); 
 		  String sifre = scan.nextLine();
+		  
 		  int uzunluk = sifre.length(); 
 		  char ilkharf = sifre.charAt(0); 
 		  char sonharf = sifre.charAt(sifre.length()-1); 
