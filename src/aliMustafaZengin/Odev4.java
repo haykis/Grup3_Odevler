@@ -9,7 +9,7 @@ public static void main(String[] args) {
 //		Soru 1) String methodlarini kullanarak “ Java ogrenmek123 Cok guzel@ ”  string ifadesini 
 //“Java ogrenmek cok guzel.” sekline getirin.
 		
-/*	String ilkDeger= "Java ogrenmek123 Cok guzel@";
+	String ilkDeger= "Java ogrenmek123 Cok guzel@";
 		String IstenenDeger=ilkDeger.replace("123", "").replace('@', '.').replace('C', 'c');
 		//"Java ogrenmek cok guzel."
         System.out.println(IstenenDeger);
@@ -91,7 +91,7 @@ Scanner scan1=new Scanner(System.in);
         System.out.println(yeniIsim+" "+ yeniSoyIsim+"\n"+yeniKartNo);
         
  
- */
+ 
 		
        // Soru 5) Kullanicidan bir sifre girmesini isteyin. Asagidaki sartlari sagliyorsa
         //“Sifre basari ile tanimlandi”, sartlari saglamazsa “Islem basarisiz,Lutfen yeni bir sifre girin” yazdirin 
