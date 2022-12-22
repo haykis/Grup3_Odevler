@@ -31,11 +31,15 @@ public class Odev5_Soru3 {
 	
 	public static int usAlmaMethodu(int x , int y) {
 		
-		int sonuc=1;
+	int sonuc=1;
 		for (int i = 1; i <= y; i++) {
             sonuc *= x;
         }
-        return sonuc;
+		return sonuc;
+		
+		
+		//int sonuc=(int)Math.pow(x, y);
+        //return sonuc;
 		
 		
  		

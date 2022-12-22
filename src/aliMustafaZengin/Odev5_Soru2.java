@@ -13,7 +13,7 @@ public class Odev5_Soru2 {
 		*/
 
 		
-		String str1="InfotechAcademy1234…!'^.+";
+		String str1="InfotechAcademy1234...!'^.+";
 		karakterSay(str1);
 		
 
@@ -26,6 +26,8 @@ public class Odev5_Soru2 {
 		int harf = 0;
 	    int rakam = 0;
 	    int karakter= 0;
+	    
+	      
 	    
 	    
 	    for (int i = 0; i < str1.length(); i++) {

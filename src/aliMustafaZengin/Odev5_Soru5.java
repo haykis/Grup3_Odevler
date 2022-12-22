@@ -20,21 +20,14 @@ public class Odev5_Soru5 {
         
         while (sayi1 <=sayi2) {
 			if (sayi1 % 2 == 0) {
-				
+				System.out.println(sayi1);}	
 			
-			sayi1=sayi1+2;
-			   System.out.println(sayi1); 
-			}
-			   else   {
-				
-			
-			sayi1=sayi1+1;
-			   System.out.println(sayi1); 
-			   }
+			sayi1++;
         
         
-	}
+	
 
        
+}
 }
 }
