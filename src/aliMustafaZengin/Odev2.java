@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class Odev2 {
 	public static void main(String[] args) {
-		//fsfs
-		//dsfss
-		//gdfgdfdf
+		
 		
 		
 

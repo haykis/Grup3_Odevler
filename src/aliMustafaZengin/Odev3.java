@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Odev3 {
 
 		public static void main(String []args) {
-			//fggdgd
+			
 			
 			//1.Kullanıcıdan uc tane tam sayı alalım ve maksimum sayıyı bulan java kodunu yazalım.
 			//Not: if else kullanalım…
