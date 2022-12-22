@@ -7,7 +7,7 @@ public class Odev5inciHafta5inciSoru {
 	public Odev5inciHafta5inciSoru() {
 
 		
-		/* Kullanicidan baslangic ve bitis degerlerini alin. Baslangic degeri ve bitis 
+		/* 5-Kullanicidan baslangic ve bitis degerlerini alin. Baslangic degeri ve bitis 
 		 degeri dahil aradalarindaki tum cift tamsayilari while loop kullanarak 
 		 ekrana yazdiriniz.
 	*/
