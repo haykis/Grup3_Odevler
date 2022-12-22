@@ -14,7 +14,7 @@ public class Odev5inciHafta2inciSoru {
 		c.kac ozel karakter oldugunu ekrana yazdıran 
 		karakterSay() metodunu yazınız.
 		*/
-		String str = "InfotechAcademy1234...!’^.+”";
+		String str = "InfotechAcademy1234...!’.^+";
 		karakterSay(str);
 	}
 	public static void karakterSay(String str) {
