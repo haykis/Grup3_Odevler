@@ -134,8 +134,7 @@ public class JavaOdev4 {
 			}
 		} else {
 			System.out.println("Islem basarisiz, lutfen yeni bir sifre girin.");
-		}
-		;
+		};
 	}
 
 }
