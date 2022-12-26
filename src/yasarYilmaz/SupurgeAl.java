@@ -10,6 +10,7 @@ public class SupurgeAl {
 		Scanner scans = new Scanner(System.in);
 		
 		String ad = "supurge";
+		String bad="   ";
 
 		RobotSupurge spr = new RobotSupurge("Xiomi",3,"Var",5,"Var",200,2);
 		RobotSupurge supurge1 = new RobotSupurge();
