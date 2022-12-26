@@ -186,22 +186,6 @@ public class Odev5Hafta {
 //	7) Kullanicidan toplamak uzere pozitif sayilar isteyin, islemi bitirmek icin 
 //	0’a basmasini soyleyin. 
 	
-//	static void pozitif()
-	{
-//		Scanner scan = new Scanner(System.in);
-//		int sayi=1;
-//		int toplam = 0;
-//		boolean ctrl=true;
-//		while (sayi!=0)
-//			{
-//				System.out.println("Pozitif Sayı Giriniz ");
-//				sayi=scan.nextInt();
-//				toplam += sayi;
-//				
-//			}
-//		System.out.println("Girilen Pozitif Sayilarin Toplamı =" + toplam);
-		
-
 //		Kullanici 0’a bastiginda toplam kac pozitif sayi girdigini ve girdigi pozitif 
 //		sayilarin toplaminin kac oldugunu yazdirin.(do while dongusu ile)
 		
@@ -250,10 +234,6 @@ public class Odev5Hafta {
 			System.out.println(" Girilen Sayıların Toplamı =" + toplam );
 			System.out.println(sayac + " Adet Ssayı Girildi ");
 		}
-		
-		
-		
-		
 //	9 Kullanicidan pozitif bir rakam girmesini isteyin ve girilen rakama gore 
 //	carpim tablosu olusturun. Ornek,kullanici 3 girerse,
 //	1 2 3
