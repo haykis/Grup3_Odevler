@@ -18,7 +18,7 @@ public class Odev6Product {
 	public Odev6Product(String name, String işlemci, int bellekGb, int depolamaGb, double ekranBoyutu) {
 		super();
 		this.name = name;
-		this.islemci = işlemci;
+		this.islemci = islemci;
 		this.bellekGb = bellekGb;
 		this.depolamaGb = depolamaGb;
 		this.ekranBoyutu = ekranBoyutu;
