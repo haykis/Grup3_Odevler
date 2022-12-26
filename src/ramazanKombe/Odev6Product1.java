@@ -7,6 +7,10 @@ public class Odev6Product {
 	String renk;
 	double fiyat;
 	int stok;
+	
+	
+public Odev6Product() {};
+	
 
 	// Parametreli constructor
 	public Odev6Product()
