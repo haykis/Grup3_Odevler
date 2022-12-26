@@ -1,6 +1,6 @@
 package zeynepTubaTur;
 
-public class JavaOdev1Hafta {
+public class JavaOdev1 {
 	
 	public static void main(String[] args) {
 
