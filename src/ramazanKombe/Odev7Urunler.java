@@ -25,17 +25,23 @@ public class Odev7Urunler {
  
  Odev7Islem obje = new Odev7Islem();
  
- String arr = obje.Odev7Islem();
+ 
  String arr[]= obje.Odev7Islem(urun1,urun2,urun3,urun4,urun5);
  
  System.out.println(Arrays.toString(arr));
- 
- Arrays.sort(arr);
+	
+	
+Arrays.sort(arr);
+
  
  System.out.println(Arrays.toString(arr));
+ 
  System.out.println(Arrays.binarySearch(arr,"Yeni urun"));
  
  arr[2]= "Yeni Urun";
+ 
+ System.out.println(Arrays.toString(arr));
+
  
  int a = Arrays.binarySearch(arr,"Yeni urun");
  if(a<0) {
