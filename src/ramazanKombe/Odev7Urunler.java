@@ -36,12 +36,13 @@ Arrays.sort(arr);
  
  System.out.println(Arrays.toString(arr));
  
- System.out.println(Arrays.binarySearch(arr,"Yeni urun"));
+ System.out.println("Yeni bir urun giriniz.");
  
- arr[2]= "Yeni Urun";
+ arr[2]= scan.nextLine();
+
+ Arrays.binarySearch(arr,arr[2]= scan.nextLine());
  
  System.out.println(Arrays.toString(arr));
-
  
  int a = Arrays.binarySearch(arr,"Yeni urun");
  if(a<0) {
