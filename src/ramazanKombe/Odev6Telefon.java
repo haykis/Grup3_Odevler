@@ -3,6 +3,8 @@ package ramazanKombe;
 import java.util.Iterator;
 import java.util.Scanner;
 
+import aliMustafaZengin.Odev6Product;
+
 public class Odev6Telefon {
 
 	public static void main(String[] args) {
@@ -46,29 +48,29 @@ public class Odev6Telefon {
 
 		// Kullanicidan veri alma
 
-//		Scanner scan = new Scanner(System.in);
-//
-//		Product urun6 = new Product();
-//
-//		System.out.println("Urunun markasini giriniz: ");
-//
-//		String marka = (urun6).next();
-//		System.out.println("Urunun modelini giriniz: ");
-//
-//		String model = urun6.next();
-//
-//		System.out.println("Bir renk belirtiniz: ");
-//		String renk = urun6.next();
-//
-//		System.out.println("Hafiza belirtiniz: ");
-//		int hafiza = urun6.nextInt();
-//
-//		System.out.println("Fiyat giriniz: ");
-//		double fiyat = urun6.nextDouble();
-//
-//		System.out.println("Stok durumunu belirtiniz: ");
-//		int stok = urun6.nextInt();
-//
+		Scanner scan = new Scanner(System.in);
+
+		Odev6Product urun6 = new Odev6Product();
+
+		System.out.println("Urunun markasini giriniz: ");
+
+		urun6.marka = scan.next();
+		System.out.println("Urunun modelini giriniz: ");
+
+		urun6.model = scan.next();
+
+		System.out.println("Bir renk belirtiniz: ");
+		urun6.renk = scan.next();
+
+		System.out.println("Hafiza belirtiniz: ");
+		urun6.hafiza = scan.nextInt();
+
+		System.out.println("Fiyat giriniz: ");
+		urun6.fiyat = scan.nextDouble();
+
+		System.out.println("Stok durumunu belirtiniz: ");
+		urun6.stok = scan.nextInt();
+
 	}
 
 }

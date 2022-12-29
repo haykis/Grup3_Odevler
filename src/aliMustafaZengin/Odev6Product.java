@@ -14,10 +14,10 @@ public class Odev6Product {
 	
 	
 	
-	public Odev6Product(String name, String işlemci, int bellekGb, int depolamaGb, double ekranBoyutu) {
+	public Odev6Product() {
 		super();
 		this.name = name;
-		this.islemci = işlemci;
+		this.islemci = islemci;
 		this.bellekGb = bellekGb;
 		this.depolamaGb = depolamaGb;
 		this.ekranBoyutu = ekranBoyutu;
@@ -41,6 +41,16 @@ public class Odev6Product {
 		int bellekGb=16; 
 		int depolamaGb=512;
 		double ekranBoyutu=14.0;
+		public String renk;
+		public double fiyat;
+		public int hafiza;
+		public int stok;
+		public String model;
+		public String marka;
+		public String next() {
+			// TODO Auto-generated method stub
+			return null;
+		}
 		
 		//Urunler Asus Viva , Hp Jupiter, Dell New, Casper New ,MSI Venus , Vestel ,Toshiba,Beko
 		//Samsung , Sony,Arcelik,Jupiter, Game Computer, Huwai,Ipad

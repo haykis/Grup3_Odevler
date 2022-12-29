@@ -2,7 +2,7 @@ package zeynepTubaTur;
 
 import java.util.Scanner;
 
-public class JavaOdev4 {
+public class Homework4 {
 
 	public static void main(String[] args) {
 
