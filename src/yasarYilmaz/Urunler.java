@@ -10,7 +10,7 @@ public class Urunler
 	{
 		Scanner scan=new Scanner(System.in);
 		
-		System.out.println("5 tane urun kazandiniz urunleri giriniz");
+		System.out.println("5 Tane Ürün Almaya Hak Kazandınız. İstediğiniz Ürünleri Giriniz");
 		System.out.println("Bırıncı urunu gırınız?");
 		String birinciUrun = scan.nextLine();
 		System.out.println("Ikinci urunu gırınız?");
@@ -33,10 +33,10 @@ public class Urunler
 		Arrays.sort(arr1);
 		System.out.println(Arrays.toString(arr1));
 		
-		arr1[2]="yeni urun";
+		arr1[2]="Laptop";
 		System.out.println(Arrays.toString(arr1));
 		
-		int a=Arrays.binarySearch(arr1, "yeni urun");
+		int a=Arrays.binarySearch(arr1, "Laptop");
 		if (a<0) 
 		{
 			System.out.println("Aradiginiz urun eklenmedi");
