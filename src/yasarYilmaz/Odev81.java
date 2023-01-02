@@ -22,35 +22,42 @@ public class Odev81 {
 	
 	public static void diziyaz()
 	{
-		int[][] diziyazdir = { {1,2,3}, {4,5}, {6} };
+		int[][] diziyazdir = { {1,2,3}, {4,5}, {6} ,{3,2},{4,7,9,8}};
 		int carp = 1;
 		for(int y=0;y<diziyazdir.length;y++)
 		{	
-			carp *= diziyazdir[y][diziyazdir[y].length-1];
-			System.out.println(diziyazdir[y][diziyazdir[y].length-1]);
+			int koor =diziyazdir[y].length-1;
+			carp *= diziyazdir[y][koor];
+			System.out.println(carp);    //diziyazdir[y][diziyazdir[y].length-1]);
 		}		
 		System.out.println("Çarpımları Sonucu = " + carp);
 	}
 	
 	public static void ayniindex()
 	{
-		int[][] arr1 =  { {1,2}, 
+		int[][] arr1 =  { {1,2,4,3}, 
 						  {3,4,5}, 
-						  {6} } ;
+						  {6,8} } ;
 		
-		int[][] arr2 =  { {7,8,9}, 
-						  {10,11}, 
+		int[][] arr2 =  { {10,11},
+						  {7,8,9},
 						  {12} };
 		
 		int indextop=0;
-				
-		for (int a=0 ; a<4 ; a++)
+		
+		int ctrl=0;		
+		for (int a=0 ; a<3 ; a++)
 		{			
-			for (int b=0 ; b<arr1[0].length ; b++)
+			int knta = arr1[a].length;
+			int kntb = arr2[a].length;
+			
+			if (knta>kntb) ctrl= arr1[a].length;
+					else ctrl= arr2[a].length;
+			for (int b=0 ; b<ctrl-1 ; b++)
 
 			{
 				indextop = 0;
-				System.out.println(arr1[0].length);
+//				System.out.println(arr1[0].length);
 				indextop += arr1[a][b] + arr2[a][b];
 				System.out.println(a + " " + b + ". indis Toplamı = " + indextop);
 			}
@@ -76,20 +83,26 @@ public class Odev81 {
 	{
 		int[][] dizim = {{1,2,3},{4,5},{6,7}};
 		int satirtop = 0;
+		int[] yenidizi = new int[dizim.length];
 		for (int y=0; y<3 ; y++)
 		{
-			
-			for (int x=0 ; x<dizim[0].length-1 ; x++)
+			satirtop=0;
+			for (int x=0 ; x<dizim[y].length ; x++)
 			{
 				System.out.println("y = " + y);
 				System.out.println("x = " + x);
 				
 				satirtop += dizim[y][x]; 
+				yenidizi[y] = satirtop;
 				
 			}
-			System.out.println(satirtop);
+			System.out.print(satirtop + "  ");
+			
 			satirtop = 0;
 		}
+		System.out.println();
+		for (int s:yenidizi)
+			System.out.print(s + "   ");
 		
 	}
 	
@@ -132,6 +145,7 @@ public class Odev81 {
 		        System.out.print(i);
 		    System.out.println();
 		    Collections.sort(word);
+		    word.sort(null);
 		    l=word.contains("L");
 		    m=word.contains("M");
 		    if (l) System.out.println("Word dizisinde L harfi var");
@@ -152,6 +166,58 @@ public class Odev81 {
 		for(int a:digit) System.out.println(digit);
 	}
 	
+	public static void dizicarp()
+	{
+		List<Integer> digit = new ArrayList<>();
+		digit.add(1);
+		digit.add(2);
+		digit.add(1);
+		digit.add(1);
+		digit.add(2);
+		int carp = 1;
+		int kare = 1;
+		int karetop = 0;
+		
+		for(int dig:digit)
+		{
+			kare = dig * dig;
+			carp *= dig;
+			karetop += kare;
+		}
+		System.out.println("dizideki Sayıların Çarpımı = " + carp +
+				   "\nSayıların Karelerinin Toplamı = " + karetop);
+	}
+
+	public static void ortakeleman()
+	{
+		List<String> ad1 = new ArrayList<>();
+		List<String> ad2 = new ArrayList<>();
+		int sayac = 0;
+		ad1.add("Yasar"); ad1.add("Yahya"); ad1.add("Yasin");
+		ad2.add("Yaşar"); ad2.add("Yahya");	ad2.add("Yasiin");
+		for(String ad:ad1)
+			for(String add:ad2)
+				if(ad.equals(add)) 
+				{
+					sayac++;
+					System.out.println(add);
+				}
+		if(sayac == 0) System.out.println("Ortak eleman Yoktur");
+	}
+	
+	public static void karekterler()
+	{
+	
+		String[] mesaj = {"Java Tester Kursumuz Bize Gelecekte Güzel İmkanlar Sağlayacaktır"};
+		for(String chr:mesaj)
+			System.out.println();
+			
+		
+		
+		
+	}
+	
+	
 	public static void main(String[] args) 
 	{
 //		dizicarpma();
@@ -160,7 +226,13 @@ public class Odev81 {
 //		indextopla();
 //		cumle();
 //		stringlist();
-		listinteger();
+//		listinteger();
+//		dizicarp();
+//		ortakeleman();
+		karekterler();
+		
+		
+		
 		
 		
 			
