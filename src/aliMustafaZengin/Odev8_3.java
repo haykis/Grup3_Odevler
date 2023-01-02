@@ -52,7 +52,20 @@ public class Odev8_3 {
 			}
 			else {
 				System.out.println("Ortak Eleman Yok");
+//				Ortak Eleman Yok
+//				Ortak Eleman Yok
+//				Ortak Eleman Yok
+//				Ali
+//				Ortak Eleman Yok
+//				Ortak Eleman Yok
+//				Ortak Eleman Yok
+//				Ortak Eleman Yok
+//				Ortak Eleman Yok
+//				Ortak Eleman Yok
+//				Deli
+//				Ortak Eleman Yok
 			}
+			
 			
 		}}
 		
@@ -71,6 +84,14 @@ for (String string : ass) {
 		System.out.println(string);
 	}
 	System.out.println(" ");
+//	M
+//	u
+//	s
+//	t
+//	a
+//	f
+//	a
+	 
 	
 
 }

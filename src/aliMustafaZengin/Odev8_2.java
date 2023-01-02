@@ -44,10 +44,16 @@ public class Odev8_2 {
 	
 //	6)contains() methodu kullanarak, L’nin list’de var oldugunu ve M’nin list’de var 
 //	olmadigini dogrulayiniz.
-//	7)size() methodu kullanarak, list’in kag eleman oldugunu ekrana yazdiriniz.
+	
+	System.out.println(str.contains("L"));//true
+	System.out.println(str.contains("M"));//false
+//	7)size() methodu kullanarak, list’in kac eleman oldugunu ekrana yazdiriniz.
+	System.out.println(str.size());//5
 //	8)clear() methodu kullanarak, list’deki tum elemanlari siliniz.
+	str.clear();
+	System.out.println(str);//[]
 //	9)isEmpty() methodu kullanarak, list’deki tum elemanlarin silindigini dogrulayiniz.
-
+System.out.println(str.isEmpty());//true
 	}
 
 }

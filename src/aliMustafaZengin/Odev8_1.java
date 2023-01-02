@@ -27,13 +27,14 @@ public class Odev8_1 {
 		//son elemanlarin carpimini ekrana 
 //	yazdiran bir program yaziniz.
 //	{ {1,2,3}, {4,5}, {6} }
-//		int arr1[][]={ {1,2,3}, {4,5}, {6} };
-//		int sum=1;
-//		for (int i = 0; i < arr1.length; i++) {
-//			int son=arr1[i].length-1;
-//			sum=sum*arr[i][son];
-//		}
-//		System.out.println(sum);
+		int[][] diziyazdir = { {1,2,3}, {4,5}, {6} };
+		int carp = 1;
+		for(int y=0;y<diziyazdir.length;y++)
+		{	
+			carp *= diziyazdir[y][diziyazdir[y].length-1];
+			System.out.println(diziyazdir[y][diziyazdir[y].length-1]);
+		}		
+		System.out.println("Çarpımları Sonucu = " + carp);//90
 
 		
 		
@@ -54,7 +55,7 @@ public class Odev8_1 {
 		}
 		
 	}
-	System.out.println(topla);
+	System.out.println(topla);//81
 	
 //	Soru4) Asagidaki multidimensional array’in ic array’lerindeki
 	//tum elemanlarin toplamini birer 
