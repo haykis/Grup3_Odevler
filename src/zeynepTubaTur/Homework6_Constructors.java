@@ -2,7 +2,7 @@ package zeynepTubaTur;
 
 import java.util.Scanner;
 
-public class Homework6_ProductConstructors {
+public class Homework6_Constructors {
 
 	// Soru 1
 	// E-ticaret sitelerini inceleyiniz. Bir urunun(objenin) ne gibi ozellikleri
