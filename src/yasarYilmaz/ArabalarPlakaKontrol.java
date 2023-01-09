@@ -35,8 +35,9 @@ public class ArabalarPlakaKontrol
 			{
 				System.out.println("Bu Araç Çalıntıdır Lütfen Polise Gidiniz");
 				sayac++;				
-//				break;
+				break;
 			}
+			
 			if(sayac<=arabam.size())
 							{
 				System.out.println("Arabanız Çalıntı değildir");
