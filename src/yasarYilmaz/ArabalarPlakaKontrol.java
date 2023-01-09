@@ -19,6 +19,11 @@ public class ArabalarPlakaKontrol
 		arabam.add(new ArabaKayit("PLK-256",21,2021,"1.8","Manuel","Benzin"));
 		arabam.add(new ArabaKayit("SVS-980",10,2015,"2.4","Otomatik","Benzin"));
 		arabam.add(new ArabaKayit("TUR-542",32,2001,"1.2","Otomatik","Benzin"));
+		arabam.add(new ArabaKayit("GHD-452",16,2001,"1.6","Otomatik","Benzin"));
+		arabam.add(new ArabaKayit("AKL-342",11,2009,"1.3","Manuel","Benzin"));
+		arabam.add(new ArabaKayit("PLK-263",27,2001,"1.8","Manuel","Manual"));
+		arabam.add(new ArabaKayit("SVS-990",19,2022,"2.4","Otomatik","Benzin"));
+		arabam.add(new ArabaKayit("TUR-572",32,2003,"1.2","Otomatik","Manual"));
 		
 		System.out.println("Aradığınız Plakayı Giriniz = ");
 		arananPlaka=scan.nextLine();
