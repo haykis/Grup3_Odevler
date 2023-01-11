@@ -208,14 +208,18 @@ public class Odev81 {
 	public static void karekterler()
 	{
 	
-		String[] mesaj = {"Java Tester Kursumuz Bize Gelecekte Güzel İmkanlar Sağlayacaktır"};
-		for(String chr:mesaj)
-			System.out.println();
-			
+		
+		String mesaj = "Java Tester Kursumuz Bize Gelecekte Güzel İmkanlar Sağlayacaktır";
+		String[] str = mesaj.split("");
+		for(String chr : str) 
+		System.out.println(chr);
+		System.out.println(" ");
+
+		
+	}	
 		
 		
-		
-	}
+	
 	
 	
 	public static void main(String[] args) 

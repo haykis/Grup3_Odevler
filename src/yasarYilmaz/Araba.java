@@ -2,6 +2,13 @@ package yasarYilmaz;
 
 public class Araba {
 
+	//Araba classinin ozellikleri 
+			String name; //marka
+			int id; //ilan numarasi
+			int model; // kac yasinda 
+			String motor; //1.0 ---- 1.5 ---- 2.0 
+			String vites; // otomatik , manuel
+			String yakit; // hybrid - benzin- dizel
 //	2. Github hessabindan ders6 yi kendi local calisma ortaminiza pull ediniz. Araba 
 //	classi icindeki ozellikleri kullanarak Constructor classinda nesne uretiniz
 		
@@ -17,13 +24,4 @@ public class Araba {
 			this.vites = vites;
 			this.yakit = yakit;
 		}
-		
-		//Araba classinin ozellikleri 
-		String name; //marka
-		int id; //ilan numarasi
-		int model; // kac yasinda 
-		String motor; //1.0 ---- 1.5 ---- 2.0 
-		String vites; // otomatik , manuel
-		String yakit; // hybrid - benzin- dizel
-		
 	}
