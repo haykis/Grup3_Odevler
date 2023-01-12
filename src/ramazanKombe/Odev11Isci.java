@@ -5,12 +5,7 @@ import java.util.ArrayList;
 public class Odev11Isci extends Odev11Muhasebe {
 
 	
-
-	 
 	 private static int id;
-
-
-
 
 	public Odev11Isci() {
 		super(id);
@@ -21,11 +16,11 @@ public class Odev11Isci extends Odev11Muhasebe {
 	
 
 	public static <Isci> void main(String[] args) {
-		 ArrayList<Odev11Isci> isciList = new ArrayList<Odev11Isci>();
+		 ArrayList<Odev11Isci> isciList = new ArrayList<>();
 		 
 		 Odev11Isci isci1 = new Odev11Isci();
 		 
-		 	isci1.getId();
+		 	isci1.idAtama(i);
 	        isci1.setIsim("Kemal");
 	        isci1.setSoyisim("Dolu");
 	        isci1.setAdres("123. sok no:2");
@@ -33,11 +28,12 @@ public class Odev11Isci extends Odev11Muhasebe {
 	        isci1.saatlikUcret = 15.50;
 	        isci1.statu = "isci";
 	        isci1.maasHesapla();
+	        
 	        isciList.add(isci1);
 	        		
 	        		
 	        Odev11Isci isci2 = new Odev11Isci();
-	        isci2.setId(222562);
+	        isci2.idAtama(i);
 	        isci2.setIsim("Ali");
 	        isci2.setSoyisim("Can");
 	        isci2.setAdres("45.sok no: 5");
@@ -45,10 +41,11 @@ public class Odev11Isci extends Odev11Muhasebe {
 	        isci2.saatlikUcret = 17.00;
 	        isci2.statu = "usta";
 	        isci2.maasHesapla();
+	        
 	        isciList.add(isci2);
 	        
 	        Odev11Isci isci3 = new Odev11Isci();
-	        isci3.setId(996593);
+	        isci3.idAtama(i);;
 	        isci3.setIsim("Ahmet");
 	        isci3.setSoyisim("Demir");
 	        isci3.setAdres("789. sok no:7");
@@ -56,6 +53,7 @@ public class Odev11Isci extends Odev11Muhasebe {
 	        isci3.saatlikUcret = 18.50;
 	        isci3.statu = "ustabasi";
 	        isci3.maasHesapla();
+	        
 	        isciList.add(isci3);
 
 	       

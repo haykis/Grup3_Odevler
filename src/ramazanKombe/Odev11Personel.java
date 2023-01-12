@@ -2,6 +2,17 @@ package ramazanKombe;
 
 public class Odev11Personel {
 	
+	 static int i = 100000;
+	 
+	 
+	 public int idAtama(int id) {
+	    	
+	            this.id = i;
+	            i++;
+	            
+	            return id;
+	        }
+	 
 	/*•	Personel classina class seviyesinde id,isim,soyisim,address ve telefon datalaarinin deklerasyonunu yapin. 
 		Id atamasi, idAtama() methodunda olusturacaginiz programla yapilacak olup her calisana farkli bir id verilecektir.
 		Id’ ler 6 basamakli bir sayi olarak tanimlanacaktir.  
@@ -58,8 +69,9 @@ public class Odev11Personel {
 	}
 
     
-    
+   
     }
+    
     
     
     
