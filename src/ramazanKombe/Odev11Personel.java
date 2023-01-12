@@ -1,12 +1,16 @@
 package ramazanKombe;
 
+import java.util.Random;
+
 public class Odev11Personel {
 	
 	 static int i = 100000;
 	 
-	 
 	 public int idAtama(int id) {
-	    	
+		 
+		 Random rand = new Random();
+		    int i = rand.nextInt(1000000);
+		 
 	            this.id = i;
 	            i++;
 	            

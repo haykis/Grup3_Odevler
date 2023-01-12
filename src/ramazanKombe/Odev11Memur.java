@@ -36,7 +36,7 @@ public class Odev11Memur extends Odev11Muhasebe{
 	 ArrayList<Odev11Memur> MemurList = new ArrayList<Odev11Memur>();
 	 Odev11Memur Memur1 = new Odev11Memur();
 	 
-	 	Memur1.getId();
+	 	Memur1.idAtama(id);
         Memur1.setIsim("Ayse");
         Memur1.setSoyisim("Kaya");
         Memur1.setAdres("178. sok no:29");
@@ -48,7 +48,7 @@ public class Odev11Memur extends Odev11Muhasebe{
         		
         		
         Odev11Memur Memur2 = new Odev11Memur();
-        Memur2.getId();
+        Memur2.idAtama(id);
         Memur2.setIsim("Asli");
         Memur2.setSoyisim("Katip");
         Memur2.setAdres("75.sok no: 75");
@@ -59,7 +59,7 @@ public class Odev11Memur extends Odev11Muhasebe{
         MemurList.add(Memur2);
         
         Odev11Memur Memur3 = new Odev11Memur();
-        Memur3.getId();
+        Memur3.idAtama(id);
         Memur3.setIsim("Atahan");
         Memur3.setSoyisim("Kilic");
         Memur3.setAdres("79. sok no:70");

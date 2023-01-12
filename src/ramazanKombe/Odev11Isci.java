@@ -20,7 +20,7 @@ public class Odev11Isci extends Odev11Muhasebe {
 		 
 		 Odev11Isci isci1 = new Odev11Isci();
 		 
-		 	isci1.idAtama(i);
+		 	isci1.idAtama(id);
 	        isci1.setIsim("Kemal");
 	        isci1.setSoyisim("Dolu");
 	        isci1.setAdres("123. sok no:2");
@@ -33,7 +33,7 @@ public class Odev11Isci extends Odev11Muhasebe {
 	        		
 	        		
 	        Odev11Isci isci2 = new Odev11Isci();
-	        isci2.idAtama(i);
+	        isci2.idAtama(id);
 	        isci2.setIsim("Ali");
 	        isci2.setSoyisim("Can");
 	        isci2.setAdres("45.sok no: 5");
@@ -45,7 +45,7 @@ public class Odev11Isci extends Odev11Muhasebe {
 	        isciList.add(isci2);
 	        
 	        Odev11Isci isci3 = new Odev11Isci();
-	        isci3.idAtama(i);;
+	        isci3.idAtama(id);;
 	        isci3.setIsim("Ahmet");
 	        isci3.setSoyisim("Demir");
 	        isci3.setAdres("789. sok no:7");
