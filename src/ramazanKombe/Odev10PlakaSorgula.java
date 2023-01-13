@@ -10,7 +10,7 @@ public class Odev10PlakaSorgula {
 	    public Odev10PlakaSorgula() {
 	    	CalintiAraclar = new ArrayList<>();
 
-	        // Burada, 10 adet aracın özelliklerini girerek listeye ekleyebilirsiniz
+	        // Burada, 10 adet aracın özelliklerini listeye ekledim.
 	        
 	        CalintiAraclar.add(new Odev10CalintiAraclar("06 ZT 1234", "Ford", "Fiesta", 2018));
 	        CalintiAraclar.add(new Odev10CalintiAraclar("06 AB 1990", "Toyota", "Camry", 2019));

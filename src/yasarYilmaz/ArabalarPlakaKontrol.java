@@ -27,18 +27,21 @@ public class ArabalarPlakaKontrol
 		
 		System.out.println("Aradığınız Plakayı Giriniz = ");
 		arananPlaka=scan.nextLine();
+		int sayac=0;
 		
 			for(ArabaKayit araba:arabam)
 		{
 			if(araba.getPlaka().equals(arananPlaka))
 			{
 				System.out.println("Bu Araç Çalıntıdır Lütfen Polise Gidiniz");
+				sayac++;				
 				break;
 			}
-			else 
-				{
+			
+			if(sayac<=arabam.size())
+							{
 				System.out.println("Arabanız Çalıntı değildir");
-			break;
+				break;
 				}
 		}
 		
@@ -64,9 +67,3 @@ public class ArabalarPlakaKontrol
 		}
 			
 	}
-		
-		
-	
-
-
-
