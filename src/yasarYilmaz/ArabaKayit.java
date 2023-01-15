@@ -8,6 +8,7 @@ public class ArabaKayit {
 	private String motor;
 	private String vites;
 	private String yakit;
+	private Boolean kayip;
 	
 		public ArabaKayit() {    }
 	
@@ -76,6 +77,7 @@ public class ArabaKayit {
 			this.yakit = yakit;
 		}
 		
-		
+			
+		}
 
-}
+
