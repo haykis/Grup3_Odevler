@@ -12,9 +12,6 @@ public class Odev11Isci extends Odev11Muhasebe {
 	
 	 }
 
- 
-	
-
 	public static <Isci> void main(String[] args) {
 		 ArrayList<Odev11Isci> isciList = new ArrayList<>();
 		 
@@ -67,7 +64,7 @@ public class Odev11Isci extends Odev11Muhasebe {
 	            System.out.println("Isci statu: " + isci.statu);
 	           
 	 
-	         
+	         Odev11Memur.memur();
 }
 }
 }

@@ -32,7 +32,10 @@ public class Odev11Memur extends Odev11Muhasebe{
 	 * 
 	 * 
 	 */
- public static <Isci> void main(String[] args) {
+		
+		
+		
+ public static void memur() {
 	 ArrayList<Odev11Memur> MemurList = new ArrayList<Odev11Memur>();
 	 Odev11Memur Memur1 = new Odev11Memur();
 	 
