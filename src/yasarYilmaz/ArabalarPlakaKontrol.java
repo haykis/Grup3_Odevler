@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package yasarYilmaz;
 
 import java.util.ArrayList;
@@ -72,6 +73,8 @@ public class ArabalarPlakaKontrol
 
 
 =======
+=======
+>>>>>>> branch 'master' of https://github.com/haykis/Grup3_Odevler.git
 package yasarYilmaz;
 
 import java.util.ArrayList;
@@ -141,10 +144,13 @@ public class ArabalarPlakaKontrol
 		}
 			
 	}
+<<<<<<< HEAD
 		
 		
 	
 
 
 
+>>>>>>> branch 'master' of https://github.com/haykis/Grup3_Odevler.git
+=======
 >>>>>>> branch 'master' of https://github.com/haykis/Grup3_Odevler.git

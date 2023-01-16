@@ -43,7 +43,7 @@ public class Odev8inciHafta3uncuSoru {
 	
 	String [] str = ifadeler.split(ifadeler);
 	
-	for(String str : ifadeler) {
+	for(String  each: str) {
 		
 		
 		

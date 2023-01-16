@@ -7,7 +7,7 @@ public class Liste {
 
 		}
 		
-		Urunler  malzeme = new Urunler();
+		Liste  malzeme = new Liste();
 		
 		public String[]  Listeleme(String birinciUrun,String ikinciUrun,String ucuncuUrun,String dorduncuUrun,String besinciUrun) 
 		{
