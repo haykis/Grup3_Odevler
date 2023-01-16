@@ -9,7 +9,7 @@ public class MainIsciUsta {
 		UstaBasi maasUsta = new UstaBasi();
 		System.out.println(maasUsta.hesapla(ustaMaasi));
 		
-		Isci maasIsci = new Isci();
+		IsciMaas maasIsci = new IsciMaas();
 		System.out.println(maasIsci.hesapla(isciMaasi));
 
 		
